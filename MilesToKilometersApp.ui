@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<interface>
+  <object class="tk.Tk" id="main_window">
+    <property name="title">Miles to Kilometers</property>
+    <child>
+      <object class="ttk.Frame" id="miles_to_km_top_frame">
+        <property name="padding">10</property>
+        <child>
+          <object class="ttk.Label">
+            <property name="text">Enter miles:</property>
+            <layout>
+              <property name="row">0</property>
+              <property name="column">0</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object class="ttk.Entry" id="miles_entry">
+            <layout>
+              <property name="row">0</property>
+              <property name="column">1</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object class="ttk.Button">
+            <property name="text">Convert</property>
+            <property name="command">convert</property>
+            <layout>
+              <property name="row">1</property>
+              <property name="column">0</property>
+              <property name="columnspan">2</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object class="ttk.Label" id="km_result_label">
+            <property name="text"></property>
+            <layout>
+              <property name="row">2</property>
+              <property name="column">0</property>
+              <property name="columnspan">2</property>
+            </layout>
+          </object>
+        </child>
+      </object>
+    </child>
+  </object>
+</interface>
