@@ -1,1 +1,1 @@
-This is a calculator that converts grams to ounces and kilometres to miles
+This is a calculator app that converts grams to ounces and miles to kilometres
